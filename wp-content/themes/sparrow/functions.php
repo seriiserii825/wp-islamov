@@ -44,7 +44,7 @@ if ( ! function_exists( 'sparrow_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'sparrow' ),
+			'header-menu' => 'Меню в шапке',
 		) );
 
 		/*
