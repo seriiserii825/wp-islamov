@@ -28,7 +28,6 @@
 			} else {
 				jQuery("#go-top").fadeOut(fadeOutTime);
 			}
-
 		});
 
         // Animate the scroll to top

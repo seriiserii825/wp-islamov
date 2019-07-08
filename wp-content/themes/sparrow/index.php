@@ -1,25 +1,9 @@
 <?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package sparrow
- */
-
 get_header();
 ?>
-
-
 	<!-- Intro Section
 	================================================== -->
 	<section id="intro">
-
 		<!-- Flexslider Start-->
 		<div id="intro-slider" class="flexslider">
 
@@ -299,9 +283,7 @@ get_header();
 	<section id="call-to-action">
 
 		<div class="row">
-
 			<div class="eight columns offset-1">
-
 				<h1><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h1>
 				<p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
 					Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>.
@@ -338,16 +320,6 @@ get_header();
                </span>
 					<b><a href="#">2 Days Ago</a></b>
 				</li>
-				<!--
-				<li>
-				   <span>
-				   This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-				   Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-				   <a href="#">http://t.co/CGIrdxIlI3</a>
-				   </span>
-				   <b><a href="#">3 Days Ago</a></b>
-				</li>
-				-->
 			</ul>
 
 			<p class="align-center"><a href="#" class="button">Follow us</a></p>
@@ -355,7 +327,5 @@ get_header();
 		</div>
 
 	</section> <!-- Tweet Section End-->
-
-
 <?php
 get_footer();

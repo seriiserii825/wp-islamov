@@ -537,11 +537,11 @@ select {
    outline: none;
    vertical-align: middle;
    min-width: 260px;
-	max-width: 100%;
+		max-width: 100%;
    font-size: 15px;
    line-height: 24px;
-	color: #647373;
-	background: #D3D9D9;
+		color: #647373;
+		background: #D3D9D9;
 
    -moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
