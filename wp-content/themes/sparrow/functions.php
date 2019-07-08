@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__.'/inc/carbon-fields/carbon-install.php';
 require_once __DIR__.'/inc/carbon-fields/carbon-fields.php';
 
 if ( ! function_exists( 'sparrow_setup' ) ) :

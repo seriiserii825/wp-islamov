@@ -8,10 +8,15 @@ function crb_attach_theme_options() {
 	$basic_options_container = Container::make( 'theme_options', __( 'Basic Options' ) )
 		->set_icon( 'dashicons-carrot' )
 		->set_page_menu_title( 'Настройки темы' )
-	    ->add_fields( array(
-	        Field::make( 'header_scripts', 'crb_header_script', __( 'Header Script' ) ),
-	        Field::make( 'footer_scripts', 'crb_footer_script', __( 'Footer Script' ) ),
-	    ) );
+		->add_tab( __( 'Profile' ), array(
+        Field::make( 'text', 'crb_first_name', __( 'First Name' ) ),
+        Field::make( 'text', 'crb_last_name', __( 'Last Name' ) ),
+        Field::make( 'text', 'crb_position', __( 'Position' ) ),
+    ) )
+    ->add_tab( __( 'Notification' ), array(
+        Field::make( 'text', 'crb_email', __( 'Notification Email' ) ),
+        Field::make( 'text', 'crb_phone', __( 'Phone Number' ) ),
+    ) );
 
 	// Add second options page under 'Basic Options'
 	Container::make( 'theme_options', __( 'Social Links' ) )
@@ -31,4 +36,5 @@ function crb_attach_theme_options() {
 	        Field::make( 'image', 'crb_background_image', __( 'Background Image' ) ),
 	    ) );
 }
+
 
