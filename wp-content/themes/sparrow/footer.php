@@ -5,8 +5,6 @@
     <div class="row">
 
         <div class="twelve columns">
-
-
 	        <?php wp_nav_menu([
 		        'theme_location'  => 'header-footer',
 		        'container'       => '',

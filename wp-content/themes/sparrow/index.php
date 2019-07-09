@@ -292,21 +292,15 @@ get_header();
 			</div>
 
 			<div class="three columns action">
-
 				<a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
-
 			</div>
-
 		</div>
-
 	</section> <!-- Call-To-Action Section End-->
 
 	<!-- Tweets Section
 	================================================== -->
 	<section id="tweets">
-
 		<div class="row">
-
 			<div class="tweeter-icon align-center">
 				<i class="fa fa-twitter"></i>
 			</div>
@@ -321,11 +315,8 @@ get_header();
 					<b><a href="#">2 Days Ago</a></b>
 				</li>
 			</ul>
-
 			<p class="align-center"><a href="#" class="button">Follow us</a></p>
-
 		</div>
-
-	</section> <!-- Tweet Section End-->
+	</section>
 <?php
 get_footer();
